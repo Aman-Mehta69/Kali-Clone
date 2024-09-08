@@ -23,10 +23,10 @@ const App = () => {
 
   return (
 
-    <div className=" overlay m-0 p-0 h-screen w-full bg-contain bg-blue-950/80">
+    <div className=" overlay m-0 p-0 h-screen w-full bg-contain bg-blue-950/75">
 
       <img
-        className=" absolute -z-10 h-screen w-full bg-contain"
+        className=" absolute -z-[5] h-screen w-full bg-contain"
         src={bg}
         alt=""
       />

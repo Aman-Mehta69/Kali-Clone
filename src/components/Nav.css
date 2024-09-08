@@ -1,0 +1,25 @@
+/*
+hover:after:pt-5 hover:after:h-[20vh] hover:after:w-[16vw] hover:after:z-40 hover:after:absolute hover:after:rounded-e-md hover:after:rounded-b-md 
+hover:after:bg-black  hover:after:top-[7.4%] hover:after:left-[56.79%] hover:bg-black hover:rounded-t-md" */
+
+
+
+
+
+#doc:hover::after {
+    content: "";
+    display: contents;
+    height: 20vh;
+    width: 16vw;
+    background: #000;
+    position: absolute;
+    top: 7.4%;
+    left: 56.79%;
+    border-radius: 0px 5px 5px 5px;
+
+}
+
+#doc:hover{
+    background: #000;
+    border-radius: 5px 5px 0px 0px;
+}
